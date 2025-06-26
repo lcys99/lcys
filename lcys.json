@@ -22,7 +22,7 @@
     {
       "name": "看电视呗",
       "type": 0,
-      "url": "./51.txt",
+      "url": ""http://8.138.7.223/51.php",
       "playerType": 1,
       "ua": "okhttp/3",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
@@ -39,7 +39,7 @@
     {
       "name": "分享者",
       "type": 0,
-      "url": "./result.m3u",
+      "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u",
       "playerType": 1,
       "ua": "okhttp/3",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
@@ -65,7 +65,7 @@
     {
       "name": "码头小干货",
       "type": 0,
-      "url": "./mdzb.txt",
+      "url": "http://mdxgh.tpddns.cn:9999/new/mdzb.txt",
       "playerType": 1,
       "ua": "okhttp/3",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
@@ -74,7 +74,7 @@
     {
       "name": "王二小直播",
       "type": 0,
-      "url": "./wexiptv.txt",
+      "url": "https://cc-im-kefu-cos.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/d4fe44c5-107c-4511-af02-aa08fb10dff7/2024-04-25/2024-04-25_17:22:21/1714036941087/98644330/wexiptv.txt",
       "playerType": 1,
       "ua": "okhttp/3",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
@@ -83,7 +83,7 @@
     {
       "name": "IPTV（自动更新）",
       "type": 0,
-      "url": "./iptv.m3u",
+      "url": "https://live.kilvn.com/iptv.m3u",
       "ua": "okhttp/3.15",
       "playerType": 1,
       "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
