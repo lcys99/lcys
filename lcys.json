@@ -1,63 +1,63 @@
 {
-  "spider": "./lib/lcys.jar",
-  "logo": "https://11145.kstore.space/lcby/lib/5.gif",
-  "wallpaper": "http://www.mpanso.com/%E5%B0%8F%E7%B1%B3/mpansou.php",
-  "lives": [
+  "蜘蛛": "./lib/lcys.jar",
+  "标志": "./lib/5.gif",
+  "壁纸": "http://www.mpanso.com/%E5%B0%88%E7%B1%B3/mpansou.php",
+  "生活"：[
  {
-      "name": "陆城直播①",
-      "type": 0,
-      "url": "http://zozo.work.gd/ys/i/?QQ=lczb",
+      "名字": "陆城直播①",
+      "类型"：0，
+      "网址": "http://zozo.work.gd/ys/i/?QQ=lczb",
       "ua": "okhttp/3.15",
-      "playerType": 2,
+      "玩家类型"：2，
       "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
     },
     {
-      "name": "陆城直播②",
-      "type": 0,
+      "名字": "陆城直播②",
+      "类型"：0，
       "url": "https://jianhan.vip/lcys/陆城直播.json",
       "ua": "okhttp/3.15",
-      "playerType": 2,
+      "玩家类型"：2，
       "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
     },
     {
-      "name": "看电视呗",
-      "type": 0,
-      "url": "http://8.138.7.223/51.php",
-      "playerType": 1,
+      "名字": "看电视呗",
+      "类型"：0，
+      "网址":"http://8.138.7.223/51.php",
+      "玩家类型": 1,
       "ua": "okhttp/3",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+      "标志": "https://epg.112114.eu.org/logo/{name}.png"
     },
     {
-      "name": "陆城轮播",
-      "type": 0,
+      "名称": "陆城轮播",
+      "类型"：0，
       "url": "http://jianhan.vip/lcys/陆城轮播.json",
       "ua": "okhttp/3.15",
-      "playerType": 2,
+      "玩家类型"：2，
       "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
     },
     {
-      "name": "分享者",
-      "type": 0,
+      "名字"："分享者"，
+      "类型"：0，
       "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u",
-      "playerType": 1,
+      "玩家类型"：1，
       "ua": "okhttp/3",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+      "标志": "https://epg.112114.eu.org/logo/{name}.png"
     },
     {
-      "name": "Gather",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Gather",
-      "playerType": 1,
+      "名字"："收集"，
+      "类型":0,
+      "网址": "https://tv.iill.top/m3u/Gather",
+      "玩家类型": 1,
       "ua": "okhttp/3",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
+      "标志": "https://epg.112114.eu.org/logo/{name}.png"
     },
     {
-      "name": "天命人直播",
-      "type": 0,
-      "url": "http://go8.work.gd/i/?T=南",
+      "名字": "天命人直播",
+      "类型": 0,
+      "网址": "http://go8.work.gd/i/?T=南",
       "ua": "okhttp/3.15",
       "playerType": 2,
       "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
