@@ -22,7 +22,7 @@
     {
       "name": "看电视呗",
       "type": 0,
-      "url": "http://8.138.7.223/51.txt",
+      "url": "http://8.138.7.223/51.php",
       "playerType": 1,
       "ua": "okhttp/3",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
@@ -229,17 +229,6 @@
       "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
     },
     {
-      "key": "快看",
-      "name": "陆城┃快看",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "http://kkwk123.top/api.php/app/"
-    },
-    {
       "key": "悠悠影视",
       "name": "陆城┃悠悠",
       "type": 3,
@@ -262,19 +251,6 @@
       "ext": "KhY021WelCEl+6MsvwnzaPussky6FQJcpCjT9V7/D61ft9vQAhNEPOYSMZVJSODd/JOOSOwUzim+9qfvgpNz7SvUPpAkXAweyrp76WY8s5EBwW7DBMY="
     },
     {
-      "key": "热播影视",
-      "name": "陆城┃热播",
-      "type": 3,
-      "api": "csp_AppRJ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "jar": "./lib/xc-spider.jar",
-      "ext": {
-        "url": "http://v.rbotv.cn"
-      }
-    },
-    {
       "key": "天天1",
       "name": "陆城┃影视",
       "type": 3,
@@ -282,19 +258,10 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "jar": "./lib/xc-spider.jar",
+      "jar": "./lib/xc-spider.jarxc-spider.jar",
       "ext": {
         "url": "http://tt.ysdqjs.cn"
       }
-    },
-    {
-      "key": "FreeOk",
-      "name": "陆城┃OK",
-      "type": 3,
-      "api": "csp_FreeOk",
-      "jar": "./lib/1_1_custom_spider.jar",
-      "searchable": 1,
-      "filterable": 1
     },
     {
       "key": "FourKTV",
@@ -306,32 +273,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
-    },
-    {
-      "key": "HG影视",
-      "name": "陆城┃HG",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://cs.hgyx.vip/api2/api.php/app/"
-    },
-    {
-      "key": "小米尘落",
-      "name": "陆城┃尘落",
-      "type": 3,
-      "api": "csp_Wetv",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "小米电影",
-      "name": "陆城┃电影",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "api": "csp_MovieApp"
     },
     {
       "key": "西瓜视频",
@@ -382,20 +323,6 @@
         "日韩综艺",
         "欧美综艺"
       ]
-    },
-    {
-      "key": "Lib",
-      "name": "陆城┃立播",
-      "type": 3,
-      "api": "csp_LibvioGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "jar": "./lib/f0318.txt",
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
     },
     {
       "key": "浪酷弹幕",
@@ -611,63 +538,10 @@
       ]
     },
     {
-      "key": "文采",
-      "name": "陆城┃文才",
-      "type": 3,
-      "api": "csp_Jpys",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "csp_JPYY",
-      "name": "陆城┃金牌",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "./lib/1020.jar",
-      "api": "csp_Jpyy",
-      "playerType": 1,
-      "filterable": 1,
-      "ext": ""
-    },
-    {
-      "key": "好趣网",
-      "name": "陆城┃好趣",
-      "type": 3,
-      "api": "./lib/apiv381drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 87,
-      "ext": "./lib/好趣网.js"
-    },
-    {
-      "key": "金牌影视",
-      "name": "陆城┃影院",
-      "type": 3,
-      "api": "./lib/apiv381drpy2.min.js",
-      "ext": "./lib/金牌影视.js"
-    },
-    {
       "key": "小苹果弹幕版",
       "name": "陆城┃苹果",
       "type": 3,
       "api": "csp_Xpg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "timeout": 10
-    },
-    {
-      "key": "文才",
-      "name": "陆城┃文采",
-      "type": 3,
-      "api": "csp_Jpys",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -765,38 +639,6 @@
       ]
     },
     {
-      "key": "csp_XYQBiu_骚火VIP",
-      "name": "陆城┃骚火",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "./lib/lcys0114.jar",
-      "ext": "./lib/shyyVIP.json"
-    },
-    {
-      "key": "茶狐杯",
-      "name": "陆城┃茶狐",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/茶狐杯.json"
-    },
-    {
-      "key": "七新电影网_js",
-      "name": "陆城┃骑士",
-      "type": 3,
-      "api": "./lib/apiv381drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "./lib/七新电影网.js"
-    },
-    {
       "key": "白嫖者联盟_js",
       "name": "陆城┃缥缈",
       "type": 3,
@@ -871,15 +713,6 @@
       }
     },
     {
-      "key": "csp_Mp4Mov",
-      "name": "陆城┃MP4",
-      "type": 3,
-      "api": "csp_Mp4Mov",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "csp_New6v",
       "name": "陆城┃新V6",
       "type": 3,
@@ -888,15 +721,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://www.xb6v.com"
-    },
-    {
-      "key": "csp_SeedHub",
-      "name": "陆城┃狐磁",
-      "type": 3,
-      "api": "csp_SeedHub",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },
     {
       "key": "csp_MeijuMi",
@@ -945,17 +769,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./lib/蓝莓短剧.js"
-    },
-    {
-      "key": "你好帅",
-      "name": "陆城┃好帅短剧",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类url": "https://nhsyy.com/vodshwo/{cateId}--{by}------{catePg}---.html",
-        "分类": "穿越$fenle#战神$fenlei2#重生$fenlei3#爱情$fenlei4#萌娃$guda#神医$shenyi#古代$gudai#言情$yanqing#玄幻$xuanhuan",
-        "播放数组": "<div class=\"sort-item\"&&</div>"
-      }
     },
     {
       "key": "bilfun(自动)_js",
@@ -1044,16 +857,6 @@
       "ext": "./lib/4K影视.json"
     },
     {
-      "key": "三米ys",
-      "name": "陆城┃三米",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类url": "http://www.9-here.com/index.php/s/S-id-{cateId}-{catePg}/area/{area}/by/{by}/class/{class}/lang/{lang}/year/{year}.html[http://www.9-here.com/index.php/t/S-{cateId}-{catePg}.html]",
-        "分类": "电影$movie#连续剧$drama#动漫$comic#综艺$tvshow"
-      }
-    },
-    {
       "key": "大师兄",
       "name": "陆城┃师兄",
       "type": 3,
@@ -1065,70 +868,12 @@
       }
     },
     {
-      "key": "星辰xBPQ",
-      "name": "陆城┃专享",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "./lib/lcys.jar",
-      "ext": {
-        "分类url": "https://citytv.cc/tv/dianying/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}",
-        "分类": "电视剧$dianshiju#电影$dianying#动漫$dongman#综艺$zongyi#短剧$duanju",
-        "简介": "陆城影视友情提醒🔺勿信广告，避免受骗🔺+class=\"detail-sketch\">&&</span>",
-        "线路数组": "#playlist&&</li>",
-        "线路标题": "陆城专线+>&&</a>[排序:云播1>云播2>]",
-        "播放标题": ">&&<[不包含:1080P]"
-      }
-    },
-    {
       "key": "csp_yunbo",
       "name": "陆城┃云播",
       "type": 3,
       "api": "csp_Tvyb",
       "jar": "./lib/1023.jar",
       "playerType": 2
-    },
-    {
-      "key": "新可可影视③",
-      "name": "陆城┃可可1",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./lib/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "http://www.kmxibanyayu.com/",
-        "数组": "lazyload\"&&</li>",
-        "标题": "title=\"&&\"",
-        "图片": "data-original=\"&&\"",
-        "副标题": "<b>&&</b></span></a>",
-        "链接": "href=\"&&\"",
-        "播放数组": "playlist clearfix&&</ul>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": ">&&</",
-        "线路数组": "\\#playlist&&</li>",
-        "线路标题": "陆城专线",
-        "简介": "简介：</span>&&</span><a",
-        "跳转播放链接": "urlDecode(var player_*\"url\":\"&&\")",
-        "搜索url": "/index.php/ajax/suggest?mid=1&wd={wd}&page={pg}",
-        "搜索二次截取": "list\":\\[&&\\]",
-        "搜索数组": "{&&}",
-        "搜索标题": "name\":\"&&\"",
-        "搜索图片": "pic\":\"&&\"",
-        "搜索副标题": "en\":\"&&\"",
-        "搜索链接": "/cover/+en\":\"&&\"+.html",
-        "分类url": "http://www.kmxibanyayu.com/vs/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-        "分类": "电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman#短剧$duanju#电影解说$dianyingjieshuo",
-        "类型": "动作片$dongzuopian#喜剧片$xijupian#科幻片$kehuanpian#恐怖片$kongbupian#爱情片$aiqingpian#剧情片$juqingpian#战争片$zhanzhengpian#悬疑片$xuanyipian#惊悚片$jingsongpian#犯罪片$fanzuipian#奇幻片$qihuanpian#动画片$donghuapian#纪录片$jilupian#邵氏电影$shaoshidianying#预告片$yugaopian#家庭片$jiatingpian#古装片$guzhuangpian#历史片$lishipian#4K电影$4kdianying||国产剧$guochanju#港剧$gangju#台剧$taiju#日剧$riju#韩剧$hanju#泰剧$tju#美剧$meiju#海外剧$haiwaiju||大陆综艺$daluzongyi#港台综艺$gangtaizongyi#日韩综艺$rihanzongyi#欧美综艺$oumeizongyi||国产动漫$guochandongman#港台动漫$gangtaidongman#日韩动漫$rihandongman#欧美动漫$oumeidongman#海外动漫$haiwaidongman||空||空",
-        "剧情": "喜剧&爱情&恐怖&动作&科幻&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&枪战&悬疑&惊悚&经典&青春&文艺&微电影&古装&历史&运动&农村&儿童&网络电影||古装&战争&青春偶像&喜剧&家庭&犯罪&动作&奇幻&剧情&历史&经典&乡村&情景&商战&网剧&短剧&其他||选秀&情感&访谈&播报&旅游&音乐&美食&纪实&曲艺&生活&游戏互动&财经&求职||情感&科幻&热血&推理&搞笑&冒险&萝莉&校园&动作&机战&运动&战争&少年&少女&社会&原创&亲子&益智&励志&其他||空||喜剧&爱情&恐怖&动作&科幻&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&枪战&悬疑&惊悚&经典&青春&文艺&微电影&古装&历史&运动&农村&儿童&网络电影",
-        "剧情值": "*"
-      }
     },
     {
       "key": "乐哥特供-VS影院",
@@ -1288,64 +1033,6 @@
       }
     },
     {
-      "key": "乐哥特供-星辰影院3",
-      "name": "陆城┃星辰1",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./lib/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "数组": "class=\"pic-img\"&&</a>",
-        "标题": "title=\"&&完整版在线观看\"",
-        "图片": "data-original=\"&&\"",
-        "副标题": "titles\">&&</span>",
-        "链接": "href=\"&&\"",
-        "线路数组": "id=\"\\#con_playlist&&</li>",
-        "线路标题": "陆城专线",
-        "播放数组": "<ul class=\"fade-in&&</ul>",
-        "播放列表": "<li&&</li>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": "html\">&&</",
-        "跳转播放链接": "\"player\":*\"url\":\"&&\"",
-        "分类url": "https://www.020zhicheng.com/{cateId}/index_{class}_{area}_{year}_{letter}_{by}_{catePg}.html",
-        "分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#短剧$weidianying",
-        "类型": "动作片$dongzuopian#科幻片$kehuanpian#喜剧片$xijupian#爱情片$aiqingpian#恐怖片$kongbupian#战争片$zhanzhengpian#剧情片$juqingpian#动画片$donghuapian#纪录片$jilupian||国产剧$guocanju#韩国剧$hanguoju#日本剧$ribenju#台湾剧$taiwanju#香港剧$xianggangju#欧美剧$oumeiju#泰国剧$taiguoju#海外剧$haiwaiju||空||空",
-        "剧情": "惊悚$jingsong#悬疑$xuanyi#魔幻$mohuan#言情$yanqing#罪案$zuian1#冒险$maoxian#灾难$zainan#古装$guzhuang#青春$qingchun#歌舞$gewu#励志$lizhi#文艺$wenyi#生活$shenghuo#动画$donghua#伦理$lunli#原声$yuansheng#历史$lishi#谍战$diezhan#穿越$chuanyue#军旅$junlv#家庭$jiating#预告$yugao#益智$yizhi#偶像$ouxiang#犯罪$fanzui#搞笑$gaoxiao#热血$rexue#经典$jingdian#童话$tonghua#刑侦$xingzhen#推理$tuili#音乐$yinle#校园$xiaoyuan#神话$shenhua#都市$dushi#职场$zhichang#美食$meishi#旅游$lvyou#科幻$kehuan#恐怖$kongbu#喜剧$xiju#战争$zhanzheng#剧情$juqing#记录$jilu#爱情$aiqing#奇幻$qihuan#动作$dongzuo#预告$yugao#明星$mingxing#武侠$wuxia#其它$qita#时尚$shishang#少女$shaonv#竞技$jingji#商战$shangzhan#游戏$youxi||农村$nongcun#喜剧$xiju#偶像$ouxiang#古装$guzhuang#武侠$wuxia#神话$shenhua#穿越$chuanyue#刑侦$xingzhen#商战$shangzhan#战争$zhanzheng#军旅$junlv#谍战$diezhan#年代$niandai#职场$zhichang#校园$xiaoyuan#动画$donghua#言情$yanqing#科幻$kehuan#热血$rexue#剧情$juqing#青春$qingchun#悬疑$xuanyi#惊悚$jingsong#犯罪$fanzui#恐怖$kongbu#冒险$maoxian#励志$lizhi#罪案$zuian#歌舞$gewu#少女$shaonv#动漫$dongman#旅游$lvyou#时尚$shishang#真人秀$zhenrenxiu#未知$weizhi#文艺$wenyi#抗战$kangzhan#革命$geming#奇幻$qihuan#历史$lishi#传奇$chuanqi#军事$junshi#搞笑$gaoxiao#预告$yugao#音乐$yinle#游戏$youxi#益智$yizhi#情感$qinggan#童话$tonghua#爱情$aiqing#推理$tuili#动作$dongzuo#灾难$zainan#近代革命$jindaigeming#脱口秀$tuokouxiu#近代传奇$jindaichuanqi#美食$meishi#经典$jingdian#网络剧$wangluoju#玄幻$xuanhuan#破案$poan#真人剧$zhenrenju#伦理$lunli||冒险$maoxian#热血$rexue#搞笑$gaoxiao#少女$shaonv#恋爱$lianai#魔幻$mohuan#推理$tuili#神魔$shenmo#竞技$jingji#游戏$youxi#益智$yizhi#机战$jizhan#宠物$chongwu#格斗$gedou#魔法$mofa#亲子$qinzi#励志$lizhi#青春$qingchun#都市$dushi#惊悚$jingsong#经典$jingdian#童话$tonghua#真人$zhenren#校园$xiaoyuan#文艺$wenyi#生活$shenghuo#古装$guzhuang#科幻$kehuan#动画$donghua#剧情$juqing#犯罪$fanzui#动漫$dongman#历史$lishi#悬疑$xuanyi#歌舞$gewu#家庭$jiating#武侠$wuxia#音乐$yinle#战争$zhanzheng#喜剧$xiju#恐怖$kongbu#偶像$ouxiang#罪案$zuian#真人秀$zhenrenxiu#言情$yanqing#美食$meishi#灾难$zainan||爱情$aiqing#励志$lizhi#明星$mingxing#生活$shenghuo#青春$qingchun#搞笑$gaoxiao#恐怖$kongbu#职场$zhichang#校园$xiaoyuan#悬疑$xuanyi#预告$yugao#罪案$zuian#文艺$wenyi#魔幻$mohuan#动画$donghua#冒险$maoxian#惊悚$jingsong#历史$lishi#歌舞$gewu#古装$guzhuang#美食$meishi#真人秀$zhenrenxiu#脱口秀$tuokouxiu#未知$weizhi#都市$dushi",
-        "地区": "大陆$dalu#香港$xianggang#台湾$taiwan#美国$meiguo#韩国$hanguo#日本$riben#泰国$taiguo#新加坡$xinjiapo#马来西亚$malaixiya#印度$yindu#英国$yingguo#法国$faguo#加拿大$jianada#西班牙$xibanya#俄罗斯$eluosi#其它$qita||大陆$dalu#香港$xianggang#台湾$taiwan#美国$meiguo#韩国$hanguo#日本$riben#泰国$taiguo#新加坡$xinjiapo#马来西亚$malaixiya#印度$yindu#英国$yingguo#法国$faguo#加拿大$jianada#西班牙$xibanya#俄罗斯$eluosi#其它$qita||大陆$dalu#香港$xianggang#台湾$taiwan#美国$meiguo#韩国$hanguo#日本$riben#泰国$taiguo#新加坡$xinjiapo#马来西亚$malaixiya#印度$yindu#英国$yingguo#法国$faguo#加拿大$jianada#西班牙$xibanya#俄罗斯$eluosi#其它$qita||大陆$dalu#香港$xianggang#台湾$taiwan#美国$meiguo#韩国$hanguo#日本$riben#泰国$taiguo#新加坡$xinjiapo#马来西亚$malaixiya#印度$yindu#英国$yingguo#法国$faguo#加拿大$jianada#西班牙$xibanya#俄罗斯$eluosi#其它$qita",
-        "排序": "按时间$addtime#按人气$hits#按评分$gold"
-      }
-    },
-    {
-      "key": "乐哥特供-尘落影视",
-      "name": "陆城┃尘落1",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./lib/xyqxbpq.jar",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://v.wetv.wang/",
-        "数组": "class=\"pic\">&&</a>",
-        "标题": "title=\"&&\"",
-        "图片": "img src=\"&&\"",
-        "副标题": "\">&&</span>",
-        "链接": "href=\"&&\"",
-        "播放数组": "<ul class=\"plist&&</ul>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": "陆城专线",
-        "线路数组": "style=\"padding: 0px 10px 10px;\"&&b></p>",
-        "线路标题": "陆城专线",
-        "分类": "电影$1#电视剧$2#综艺$4#动漫$3",
-        "分类url": "https://v.wetv.wang/whole/{cateId}_{area}_{class}__{year}___0_{by}__{catePg}.html",
-        "排序": "最新$id#日榜$rhits#周榜$zhits#月榜$yhits#总榜$hits"
-      }
-    },
-    {
       "key": "乐哥特供-88影视网",
       "name": "陆城┃️88",
       "type": 3,
@@ -1405,35 +1092,6 @@
       }
     },
     {
-      "key": "乐哥特供-片库网",
-      "name": "陆城┃片库",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./lib/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://piankuww.com/",
-        "数组": "lazyload\"&&</li>",
-        "链接": "href=\"&&\"",
-        "图片": "data-original=\"&&\"",
-        "标题": "title=\"&&\"",
-        "副标题": "text-right\">&&</span>",
-        "播放数组": "class=\"ewave-content__playlist clearfix&&</ul>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": ">&&</",
-        "线路数组": "href=\"\\#playlist&&</li>",
-        "线路标题": "陆城专线",
-        "跳转播放链接": "var player_*\"url\":\"&&\"",
-        "分类url": "https://piankuww.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}/",
-        "分类": "电影$y#电视剧$dsj#综艺$zy#动漫$dm#短剧$dj"
-      }
-    },
-    {
       "key": "乐哥特供-电影先生1",
       "name": "陆城┃先生",
       "type": 3,
@@ -1459,25 +1117,6 @@
         "跳转播放链接": "var player_*\"url\":\"&&\"",
         "分类url": "https://silidm.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
         "分类": "电影$dianying#剧集$juji#动漫$dongman#综艺$zongyi"
-      }
-    },
-    {
-      "key": "乐哥特供-Y3电影",
-      "name": "陆城┃Y3",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./lib/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://www.y3dy.cn/",
-        "跳转播放链接": "var player_*\"url\":\"&&\"",
-        "分类url": "https://www.y3dy.cn/vod/show/area/{area}/by/{by}/id/{cateId}/letter/{letter}/page/{catePg}/year/{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$30#动漫$25#体育$36#短剧$15",
-        "类型": "动作$6#喜剧$7#爱情$8#科幻$9#悬疑$10#战争$11#犯罪$12#惊恐$22#动漫$20#灾难$23#纪录片$21#剧情片$24||国产剧$13#欧美剧$14#港台$3#泰剧$4#日韩$16#新马$5||国产综艺$31#日韩综艺$32#欧美综艺$33#新马泰综$34#预告片$35||国产动漫$26#日韩动漫$27#欧美动漫$28#其他动漫$29||篮球$37#足球$38#其他$39||空"
       }
     },
     {
@@ -1539,37 +1178,6 @@
         "分类url": "http://114bate.com/show/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
         "分类": "电影$1#电视剧$2#综艺$3#动漫$4#电影解说$38",
         "类型": "动作片$7#喜剧片$8#爱情片$9#科幻片$10#恐怖片$11#剧情片$12#犯罪片$29#战争片$13||国产剧$14#港剧$15#台湾剧$16#韩剧$17#日剧$18#泰剧$31#欧美剧$19#海外剧$20||大陆综艺$21#日韩综艺$22#港台综艺$23#欧美综艺$24||国产动漫$25#日本动漫$26#欧美动漫$27#海外动漫$28||空||空"
-      }
-    },
-    {
-      "key": "乐哥特供-开心影院",
-      "name": "陆城┃开心",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./lib/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "二次截取": "myui-vodlist clearfix\">&&</ul>",
-        "数组": "myui-vodlist__box\"&&</a>",
-        "标题": "title=\"&&\"",
-        "图片": "data-original=\"&&\"",
-        "副标题": "text-right\">&&</span>",
-        "链接": "href=\"&&\"",
-        "播放数组": "list sort-list clearfix&&</ul>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": "第+>&&</+集",
-        "线路数组": "href=\"\\#playlist&&li>",
-        "线路标题": "陆城专线",
-        "跳转播放链接": "var player_*\"url\":\"&&\"",
-        "主页url": "https://www.szhsjsj.com/",
-        "分类url": "https://www.szhsjsj.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-        "类型": "动作片$7#喜剧片$8#爱情片$9#科幻片$10#恐怖片$11#剧情片$12#犯罪片$29#战争片$13||国产剧$14#港剧$15#台湾剧$16#韩剧$17#日剧$18#泰剧$31#欧美剧$19#海外剧$20||大陆综艺$21#日韩综艺$22||国产动漫$25#日本动漫$26#欧美动漫$27#海外动漫$28||空"
       }
     },
     {
@@ -1662,34 +1270,6 @@
         "分类url": "https://www.fangsendq.com/vodshow/{cateId}--{by}------{catePg}---{year}.html",
         "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
         "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#动画片$24||国产剧$13#香港剧$14#韩国剧$15#欧美剧$16#台湾剧$20#日本剧$21#其它剧$22||空||空"
-      }
-    },
-    {
-      "key": "乐哥特供-柯南影视",
-      "name": "陆城┃柯南",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./lib/xyqxbpq.jar",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://www.knvod.com/",
-        "数组": "/list/&&</a>",
-        "链接": "/list/+&&\"",
-        "图片": "data-original=\"&&\"",
-        "标题": "alt=\"&&\"",
-        "副标题": "note\">&&</div>",
-        "播放数组": "class=\"module-play-list-content&&</div>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": "<span>&&</span>",
-        "线路数组": "class=\"module-tab-item tab-item\"&&</div>",
-        "线路标题": "陆城专线",
-        "跳转播放链接": "var player_*\"url\":\"&&\"",
-        "嗅探词": "https://v3-cha.toutiaovod.com#video/#video_mp4#https://91by.top:889#nby/m3u8#getM3u8?#.m3u8",
-        "过滤词": "https://lcap-static-saas.nos-eastchina1.126.net/app/1730685956_20241104100904175.mp4",
-        "分类url": "https://www.knvod.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}/",
-        "分类": "电影$1#电视剧$2#综艺$4#动漫$3#纪录片$5#短剧$6"
       }
     },
     {
@@ -2073,39 +1653,6 @@
       }
     },
     {
-      "key": "乐哥特供-NyaFun动漫",
-      "name": "NyaFun┃动漫",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./lib/xyqxbpq.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://nyafun.cc/",
-        "二次截取": "class=\"hl-vod-list clearfix\"&&</ul>",
-        "数组": "hl-lazy\"&&</a>",
-        "标题": "title=\"&&\"",
-        "图片": "data-original=\"&&\"",
-        "副标题": "ft2\">&&</span>",
-        "链接": "href=\"&&\"",
-        "播放数组": "hl-plays-list hl-sort-list&&</ul>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": ">&&</",
-        "线路数组": "hl-tabs-btn hl-slide-swiper&&</a>",
-        "线路标题": "陆城专线",
-        "跳转播放链接": "var player_*\"url\":\"&&\"",
-        "分类url": "https://nyafun.cc/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/letter/{letter}/page/{catePg}/year/{year}.html",
-        "分类": "TV动画$20#剧场版$21",
-        "类型": "日漫$23#国漫$24#美漫$25||空",
-        "剧情": "青春&战斗&恋爱&奇幻&热血&搞笑&萝莉&校园&冒险&动作&励志&动画&情感&玄幻&推理&机战&运动&战争&少年&少女&社会&原创&亲子&益智&小说改||日韩动漫&国产动漫&青春&战斗&恋爱&奇幻&热血&搞笑&萝莉&校园&冒险&动作&励志&动画&情感&玄幻&推理&机战&运动&战争&少年&少女&社会&原创&亲子&益智&小说改",
-        "剧情值": "*"
-      }
-    },
-    {
       "key": "天天影视",
       "name": "陆城┃天天④",
       "type": 3,
@@ -2198,84 +1745,6 @@
       }
     },
     {
-      "key": "中畅影院",
-      "name": "陆城┃中畅",
-      "type": 3,
-      "jar": "./lib/xyqxbpq.jar",
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://szdy168.com/",
-        "数组": "默认--lazyload\"&&</a>||搜索--lazyload\"&&</a>",
-        "标题": "默认--title=\"&&\"||搜索--title=\"&&\"",
-        "图片": "默认--data-original=\"&&\"||搜索--data-original=\"&&\"",
-        "副标题": "默认--right\">&&</span>||搜索--right\">&&</span>",
-        "链接": "默认--href=\"&&\"||搜索--href=\"&&\"",
-        "播放数组": "playlist clearfix&&</ul>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": ">&&</",
-        "线路数组": "more text-muted pull-right&&</div>",
-        "线路标题": "陆城专线",
-        "简介": "learfix\"><p>&&</p>",
-        "跳转播放链接": "var player_*\"url\":\"&&\"",
-        "搜索url": "https://szdy168.com/sousuoye/{wd}----------{pg}---.html",
-        "分类url": "https://szdy168.com/show/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
-        "分类": "电影&电视剧&动漫&综艺",
-        "分类值": "dianying&dianshiju&dongman&zongyi"
-      }
-    },
-    {
-      "key": "策驰影院",
-      "name": "陆城┃策驰",
-      "jar": "./lib/xyqxbpq.jar",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "作者": "乐哥/241202/",
-        "站名": "策驰影院",
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "图片代理": "0",
-        "直接播放": "0",
-        "播放请求头": "",
-        "主页url": "https://www.ccy1.com",
-        "首页": "120",
-        "起始页": "1",
-        "分类url": "https://www.ccy1.com/vod/list/{catePg}/{cateId}/{class}/{year}/0/0/0/0",
-        "分类": "电影$77/0/0#电视剧$78/0/0#综艺$79/0/0#动漫$80/0/0#短剧$165/0/0#体育$166/0/0#演唱会$170/0/0#4k电影$164/0/0",
-        "数组": "public-list-bj&&</a>",
-        "标题": "alt=\"&&\"",
-        "图片": "data-src=\"&&\"",
-        "副标题": "ft2\">&&<",
-        "链接": "href=\"&&\"",
-        "影片年代": "remarks\">&&<",
-        "状态": "豆瓣 :&&</div>",
-        "导演": "✨+导演 :&&</div>",
-        "主演": "✨+演员 :&&</div",
-        "简介": "陆城影视为您介绍剧情✨+check selected\">&&</div>",
-        "线路数组": "fa ds-dianying&&/a>",
-        "线路标题": "陆城专线",
-        "播放二次截取": "",
-        "播放数组": "list-play&&</ul>",
-        "倒序": "",
-        "播放列表": "<a&&/a>",
-        "播放标题": "✨+>&&<",
-        "播放链接": "",
-        "解析": "",
-        "跳转播放链接": "",
-        "跳转解析": "",
-        "搜索请求头": "User-Agent$MOBILE_UA",
-        "搜索url": "/search/index.html?keyword={wd}&page={pg}",
-        "筛选": "1",
-        "类型": "动作片$77/85/0/0#喜剧片$77/86/0/0#爱情片$77/87/0/0#恐怖片$77/88/0/0#剧情片$77/89/0/0#科幻片$77/90/0/0#惊悚片$77/91/0/0#奇幻片$77/92/0/0#动画片$77/93/0/0#悬疑片$77/94/0/0#冒险片$77/95/0/0#纪录片$77/96/0/0#战争片$77/97/0/0#影视解说$77/162/0/0||国产剧$78/98/0/0#香港剧$78/99/0/0#台湾剧$78/100/0/0#欧美剧$78/101/0/0#日本剧$78/102/0/0#韩国剧$78/103/0/0#泰国剧$78/104/0/0#海外剧$78/105/0/0||大陆综艺$79/106/0/0#港台综艺$79/107/0/0#日韩综艺$79/108/0/0#欧美综艺$79/109/0/0#海外综艺$79/110/0/0||国产动漫$80/111/0/0#日本动漫$80/112/0/0#欧美动漫$80/113/0/0#海外动漫$80/114/0/0||空||篮球$166/167/0/0#足球$166/168/0/0#斯诺克$166/169/0/0#网球$166/180/0/0||空||空||空"
-      }
-    },
-    {
       "key": "SKY影视",
       "name": "陆城┃SKY",
       "type": 3,
@@ -2340,37 +1809,6 @@
         "分类url": "http://www.9kdy.com/{cateId}/index{catePg}.html[http://www.9kdy.com/{cateId}/index.html]",
         "分类": "电影$dianyingpian#电视剧$dianshiju#综艺$zongyi#动漫$dongman",
         "类型": "动作片$dongzuopian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#战争片$zhanzhengpian#喜剧片$xijupian#纪录片$jilupian#剧情片$juqingpian||国产剧$guocanju#港台剧$gangtaiju#欧美剧$oumeiju#日韩剧$rihanju#短剧$duanju||空||空"
-      }
-    },
-    {
-      "key": "神马影院",
-      "name": "陆城┃神马",
-      "type": 3,
-      "jar": "./lib/xyqxbpq.jar",
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "http://www.sijiaokeji.com/",
-        "数组": "loading\"&&</li>",
-        "标题": "title=\"&&\"",
-        "图片": "data-original=\"&&\"",
-        "副标题": "text-bg-r\"&&</span>",
-        "链接": "href=\"&&\"",
-        "播放数组": "clearfix fade&&</ul>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": ">&&</[不包含:💞美女直播💞]",
-        "线路数组": "playlist&&</li>",
-        "线路标题": "陆城专线",
-        "跳转播放链接": "var zanpiancms_player*\"url\":\"&&\"",
-        "简介": "class=\"details-content-all collapse\">&&</span>",
-        "搜索模式": "1",
-        "搜索url": "http://www.sijiaokeji.com/search/?wd={wd}",
-        "分类url": "http://www.sijiaokeji.com/{cateId}/index_{class}_{area}_{year}__{by}_{catePg}.html",
-        "分类": "电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman",
-        "类型": "动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#战争片$zhanzhengpian#剧情片$juqingpian||国产剧$guocanju#香港剧$xianggangju#欧美剧$oumeiju#日本剧$ribenju#海外剧$haiwaiju#台湾剧$taiwanju#韩国剧$hanguoju#泰国剧$taiguoju||空||空",
-        "剧情": "悬疑$xuanyi#魔幻$mohuan#言情$yanqing#罪案$zuian1#冒险$maoxian#灾难$zainan#古装$guzhuang#青春$qingchun#歌舞$gewu#励志$lizhi#文艺$wenyi#生活$shenghuo#动画$donghua||农村$nongcun#喜剧$xiju#偶像$ouxiang#古装$guzhuang#武侠$wuxia#神话$shenhua#穿越$chuanyue#刑侦$xingzhen#商战$shangzhan#战争$zhanzheng#军旅$junlv#谍战$diezhan#年代$niandai#职场$zhichang||真人$zhenrenxiu#脱口$tuokouxiu#选秀$xuanxiu#情感$qinggan#访谈$fangtan#美食$meishi#旅游$lvyou#财经$caijing#军事$junshi#职场$zhichang#音乐$yinle#时尚$shishang#娱乐$yule#体育$tiyu#生活$shenghuo#社会$shehui||冒险$maoxian#热血$rexue#搞笑$gaoxiao#少女$shaonv#恋爱$lianai#魔幻$mohuan#推理$tuili#神魔$shenmo#竞技$jingji#游戏$youxi#益智$yizhi#机战$jizhan#宠物$chongwu#格斗$gedou"
       }
     },
     {
@@ -2451,76 +1889,6 @@
         "分类url": "http://m.yqfrzx.cn/vod/{cateId}-{area}-------{catePg}---{year}.html",
         "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
         "类型": "动作片$7#喜剧片$8#爱情片$9#科幻片$10#恐怖片$11#剧情片$12#犯罪片$29#战争片$13||国产剧$14#港剧$15#台湾剧$16#韩剧$17#日剧$18#泰剧$31#欧美剧$19#海外剧$20||大陆综艺$21#日韩综艺$22#港台综艺$23#欧美综艺$24||国产动漫$25#日本动漫$26#欧美动漫$27#海外动漫$28"
-      }
-    },
-    {
-      "key": "乐哥特供-自由影视",
-      "name": "陆城┃自由",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./lib/xyqxbpq.jar",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://www.freeys.cc",
-        "数组": "class=\"hl-item-thumb hl-lazy\"&&</a>",
-        "副标题": "remarks\">&&</span>",
-        "标题": "title=\"&&\"",
-        "图片": "data-original=\"&&\"",
-        "链接": "href=\"&&\"",
-        "播放数组": "class=\"hl-plays-list hl-sort-list&&</ul>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": ">&&</",
-        "线路数组": "class=\"hl-tabs-btn hl-slide-swiper&&</a>",
-        "线路标题": "alt=\"&&\"",
-        "跳转播放链接": "var player_*\"url\":\"&&\"",
-        "简介": "简介：</em>&&</li>",
-        "分类": "电影$dianying#连续剧$lianxuju#综艺$zongyi#动漫$dongman#短剧$duanju",
-        "搜索url": "http://www.freeys.cc/vodsearch/{wd}----------{pg}---/",
-        "分类url": "http://www.freeys.cc/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}/"
-      }
-    },
-    {
-      "key": "Dm84",
-      "name": "巴士┃动漫",
-      "type": 3,
-      "api": "csp_Dm84",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "58动漫网",
-      "name": "陆城┃动漫",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "简介": "⚠️陆城影视特别提醒您⚠️请勿相信影片中的广告，以免上当受骗。+简介：&&</p>",
-        "线路数组": "\"vod_play_from\":&&,",
-        "线路标题": "陆城专线",
-        "搜索url": "https://dbwyt.com/search.php?searchword={wd}",
-        "分类url": "https://dbwyt.com/wuba/{cateId}-{catePg}.html",
-        "分类": "国产动漫$1#日本动漫$2#欧美动漫$47#海外动漫$3#动漫电影$4"
-      }
-    },
-    {
-      "key": "动漫大全",
-      "name": "大全┃动漫",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "简介": "⚠️陆城影视特别提醒您⚠️请勿相信影片中的广告，以免上当受骗。+简介：&&</p>",
-        "线路数组": "\"vod_play_from\":&&,",
-        "线路标题": "陆城专线",
-        "分类url": "https://dingdingdm.com/list/{cateId}-{catePg}.html",
-        "分类": "动漫电影$1#国产动漫$3#日本动漫$2#欧美动漫$4#短剧$20"
       }
     },
     {
@@ -2858,117 +2226,6 @@
     }
   ],
   "parses": [
-    {
-      "name": "陆城超级解析",
-      "type": 1,
-      "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=0&url="
-    },
-    {
-      "name": "陆城4k",
-      "type": 1,
-      "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=0&url="
-    },
-    {
-      "name": "陆城解码",
-      "type": "1",
-      "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=0&url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
-        }
-      }
-    },
-    {
-      "name": "东海解析",
-      "type": 1,
-      "url": "http://jx.hjfggzs.top/api/?key=N7nzVPhLPAyanUim8N&url="
-    },
-    {
-      "name": "-云海（忙果4k）",
-      "type": 1,
-      "url": "http://json.o0a.cn/api/?key=339cfc2bebf5ca413c05fbbb85200006&url="
-    },
-    {
-      "name": "东海解析1",
-      "type": 1,
-      "url": "https://app.wki8.com/ipa/?url="
-    },
-    {
-      "name": "陆城解析",
-      "type": "1",
-      "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=0&url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
-        }
-      }
-    },
-    {
-      "name": "陆城解析1",
-      "type": 1,
-      "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=1&url="
-    },
-    {
-      "name": "陆城解析2",
-      "type": 1,
-      "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=2&url="
-    },
-    {
-      "name": "-陆城解析3",
-      "type": 1,
-      "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=3&url="
-    },
-    {
-      "name": "陆城解析4",
-      "type": 1,
-      "url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=8&url="
-    },
-    {
-      "name": "陆城解析5",
-      "type": 0,
-      "url": "http://www.ckplayer.vip/jiexi/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
-        }
-      }
-    },
-    {
-      "name": "陆城解析6",
-      "type": 0,
-      "url": "https://jx.yparse.com/index.php?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
-        }
-      }
-    },
-    {
-      "name": "陆城解析7",
-      "type": 0,
-      "url": "https://jx.m3u8.tv/jiexi/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36",
-          "referer": "https://jiejie.uk/"
-        }
-      }
-    },
-    {
-      "name": "陆城解析8",
-      "type": 0,
-      "url": "https://cdn.zyc888.top/?url="
-    },
-    {
-      "name": "陆城解析9",
-      "type": 0,
-      "url": "https://jx.yangtu.top?url="
-    },
-    {
-      "name": "陆城解析10",
-      "type": 0,
-      "url": "https://player.mrgaocloud.com/player/?url="
-    },
     {
       "name": "-8090g-",
       "type": 0,
