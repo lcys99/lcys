@@ -168,7 +168,10 @@
       "key": "公众号",
       "name": "陆城┃4K线路",
       "type": 3,
-      "jar": "https://lz.qaiu.top/d/lz/isqWQ2hstv0d",
+      "jar": "https://lz.qaiu.top/d/lz/isqWQ2hstv0d",    {
+      "key": "4",
+      "name": "== 4 =="
+    },
       "api": "csp_YDjisu",
       "searchable": 1,
       "changeable": 1
@@ -249,10 +252,7 @@
       "searchable": 1,
       "filterable": 1
     },
-    {
-      "key": "4",
-      "name": "== 4 =="
-    },
+
     {
       "key": "悠悠影视",
       "name": "陆城┃悠悠",
