@@ -252,7 +252,16 @@
       "searchable": 1,
       "filterable": 1
     },
-
+	{
+			"key": "py_jieyingshi",
+			"name": "界影视(T3)",
+			"type": 3,
+			"api": "./lib/apiv705py_jieyingshi.py",
+			"searchable": 1,
+			"quickSearch": 0,
+			"filterable": 0,
+			"changeable": 0
+		},
     {
       "key": "悠悠影视",
       "name": "陆城┃悠悠",
