@@ -2,15 +2,15 @@
   "spider": "./lib/lcys.jar","spider": "./lib/lcys.jar",
   "logo": "./lib/5.gif","logo": "./lib/5.gif",
   "壁纸": "http://www.mpanso.com/%E5%B0%8F%E7%B1%B3/mpansou.php","wallpaper": "http://www.mpanso.com/%E5%B0%8F%E7%B1%B3/mpansou.php",
-  "lives": ["lives": [
-    {{
+  "lives": [
+    {
       "name": "陆城直播①","name": "陆城直播①",
       "类型": 0,"type": 0,
       "url": "http://zozo.work.gd/ys/i/?QQ=lczb","url": "http://zozo.work.gd/ys/i/?QQ=lczb",
       "ua": "okhttp/3.15","ua": "okhttp/3.15",
       "玩家类型": 2,"playerType": 2,
       "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}&""epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
-    }}，
+   }，
     {
       "name": "陆城直播②",
       "类型": 0,
@@ -27,16 +27,16 @@
       "ua": "okhttp/3","ua": "okhttp/3",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}&","epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png""logo": "https://epg.112114.eu.org/logo/{name}.png"
-    }},
-    {{
+   },
+    {
       "名称": "陆城轮播","name": "陆城轮播",
       "类型": 0,"type": 0,
       "url": "http://jianhan.vip/lcys/陆城轮播.json","url": "http://jianhan.vip/lcys/陆城轮播.json",
       "ua": "okhttp/3.15","ua": "okhttp/3.15",
       "玩家类型": 2,"playerType": 2,
       "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}&""epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
-    }},
-    {{
+    },
+    {
       "name": "分享者","name": "分享者",
       "类型": 0,"type": 0,
       "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u","url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u",
@@ -44,8 +44,8 @@
       "ua": "okhttp/3","ua": "okhttp/3",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}&","epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png""logo": "https://epg.112114.eu.org/logo/{name}.png"
-    }},
-    {{
+    },
+    {
       "name": "Gather","name": "Gather",
       "类型": 0,"type": 0,
       "urls": "https://tv.iill.top/m3u/Gather","url": "https://tv.iill.top/m3u/Gather",
@@ -53,8 +53,8 @@
       "ua": "okhttp/3","ua": "okhttp/3",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}&","epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png""logo": "https://epg.112114.eu.org/logo/{name}.png"
-    }},
-    {{
+    },
+    {
       "name": "天命人直播","name": "天命人直播",
       "类型": 0,"type": 0,
       "url": "http://go8.work.gd/i/?T=南","url": "http://go8.work.gd/i/?T=南",
@@ -248,6 +248,77 @@
       "quickSearch": 1,
       "searchable": 1,
       "filterable": 1
+    },
+	  {
+      "key": "晴天",
+      "name": "陆城┃晴天4K",
+      "type": 3,
+      "quickSearch": 1,
+      "jar": "./lib/4k.jar",
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://qjappcms.sun4k.top",
+        "dataKey": "sBxqXVF5pAHbGzrH",
+        "dataIv": "sBxqXVF5pAHbGzrH",
+        "deviceId": "",
+        "version": "119"
+      }
+    },
+    {
+      "key": "桃子",
+      "name": "陆城┃桃子4K",
+      "type": 3,
+      "quickSearch": 1,
+      "jar": "./lib/4k.jar",
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://appcms.tzys.xyz",
+        "dataKey": "KL6vlZkw6WL5x90U",
+        "dataIv": "KL6vlZkw6WL5x90U",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
+      "key": "榴莲4k",
+      "name": "陆城┃榴莲4k",
+      "type": 3,
+      "quickSearch": 1,
+      "jar": "./lib/4k.jar",
+      "api": "csp_AppGet2",
+      "ext": {
+        "url": "https://qjappcms.ll4k.xyz/",
+        "dataKey": "1yGA85sJ5STtE7uj",
+        "dataIv": "1yGA85sJ5STtE7uj",
+        "deviceId": "",
+        "version": "50000"
+      }
+    },
+    {
+      "key": "狐狸君",
+      "name": "陆城┃狐狸4K",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./lib/4k.jar",
+      "changeable": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/6v.json"
+    },
+    {
+      "key": "小红",
+      "name": "陆城┃小红",
+      "type": 3,
+      "api": "csp_AppGet",
+      "jar": "./lib/4k.jar",
+      "ext": {
+        "url": "https://www.xiaohys.com",
+        "dataKey": "ENonBHeVBoYZhVUV",
+        "dataIv": "ENonBHeVBoYZhVUV",
+        "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
+        "version": "166"
+      }
     },
 	{
 			"key": "py_jieyingshi",
